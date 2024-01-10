@@ -8,8 +8,9 @@ import (
 
 func main() {
 	/**************Declaring Single Variables********************/
-	var a int
-	var b = 10
+
+	var a int //Explicit Declaration with var
+	var b = 10 //Declaration with Initialization
 	c:=11 //Shorthand Method
 
 	fmt.Printf("a is of type %v, b is of type %v, c is of type %v", reflect.TypeOf(a), 
