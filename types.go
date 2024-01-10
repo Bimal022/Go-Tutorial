@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"unsafe"
 )
 
 func main() {
@@ -55,8 +56,8 @@ func main() {
 	fmt.Printf("byteVar: %c, runeVar: %c\n", byteVar, runeVar)
 
 	// String type
-	firstName := "Naveen"
-	lastName := "Ramanathan"
+	firstName := "Kumar"
+	lastName := "Bimal"
 	fullName := firstName + " " + lastName
 	fmt.Println("My name is", fullName)
 
