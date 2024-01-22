@@ -14,10 +14,10 @@ func main() {
 	//Formatted strings(Printf)
 	//				%_(format specifier)
 	var age int = 23
-	vat name string = "Kumar Bimal"
+	var name string = "Kumar Bimal"
 	fmt.Printf("My name is %v and my age is %v", name, age)
 	
 	//Sprintf: Save the returned string in a variable
-	var str := fmt.Sprintf("Hello my name is %v and my age is %v", name, age)
+	var str = fmt.Sprintf("Hello my name is %v and my age is %v \n", name, age)
 	fmt.Println("Saved string is: %v", str)
 } 
